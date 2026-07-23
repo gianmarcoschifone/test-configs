@@ -16,9 +16,9 @@
         <property name="fileNamePattern" value="module\-info\.java$" />
     </module>
 
-    <module name="RegexpSingleline">
-        <property name="format" value="COPYRIGHTED"/>
-        <property name="ignoreCase" value="true"/>
+    <module name="RegexpMultiline">
+        <property name="format" value="System\.(out|err)\.print(ln)?\("/>
+        <property name="message" value="Avoid using System.out/err for printing."/>
     </module>
 
     <!-- as we run on regression even on non-compiled files we need to skip exceptions on them -->

@@ -102,15 +102,21 @@
         </module>
 
         <module name="Regexp">
-            <property name="errorLimit" value="1"/>
-            <property name="format" value="(?i)fix me\."/>
+            <property name="format" value="System\.out\.println"/>
             <property name="id" value="example14"/>
             <property name="illegalPattern" value="true"/>
         </module>
 
         <module name="Regexp">
-            <property name="format" value="System\.out\.println"/>
+            <property name="errorLimit" value="1"/>
+            <property name="format" value="(?i)fix me\."/>
             <property name="id" value="example15"/>
+            <property name="illegalPattern" value="true"/>
+        </module>
+
+        <module name="Regexp">
+            <property name="format" value="System\.out\.println"/>
+            <property name="id" value="example16"/>
             <property name="illegalPattern" value="true"/>
         </module>
 
