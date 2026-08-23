@@ -25,9 +25,19 @@
         <property name="skipFileOnJavaParseException" value="true"/>
         <property name="javaParseExceptionSeverity" value="ignore"/>
 
-        <module name="IllegalType">
-            <property name="legalAbstractClassNames" value="AbstractList"/>
-            <property name="validateAbstractClassNames" value="true"/>
+        <module name="JavadocLinkWellKnownApi">
+            <property name="id" value="example1"/>
+        </module>
+
+        <module name="JavadocLinkWellKnownApi">
+            <property name="id" value="example2"/>
+            <property name="wellKnownQualifiedPackages" value="java.lang, java.util"/>
+        </module>
+
+        <module name="JavadocLinkWellKnownApi">
+            <property name="id" value="example3"/>
+            <property name="wellKnownQualifiedPackages" value="java.lang"/>
+            <property name="wellKnownSimpleNames" value="String, Integer"/>
         </module>
 
         <!-- suppress javadoc parsing errors, as we test Check not a parser -->

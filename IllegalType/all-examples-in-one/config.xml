@@ -69,14 +69,7 @@
         </module>
 
         <module name="IllegalType">
-            <property name="id" value="IllegalTypeVarAsField"/>
             <property name="id" value="example8"/>
-            <property name="illegalClassNames" value="var"/>
-            <property name="tokens" value="VARIABLE_DEF"/>
-        </module>
-
-        <module name="IllegalType">
-            <property name="id" value="example9"/>
             <property name="legalAbstractClassNames" value="AbstractList"/>
             <property name="validateAbstractClassNames" value="true"/>
         </module>

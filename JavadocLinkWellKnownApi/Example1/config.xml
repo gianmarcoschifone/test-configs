@@ -25,10 +25,7 @@
         <property name="skipFileOnJavaParseException" value="true"/>
         <property name="javaParseExceptionSeverity" value="ignore"/>
 
-        <module name="IllegalType">
-            <property name="legalAbstractClassNames" value="AbstractList"/>
-            <property name="validateAbstractClassNames" value="true"/>
-        </module>
+        <module name="JavadocLinkWellKnownApi"/>
 
         <!-- suppress javadoc parsing errors, as we test Check not a parser -->
         <module name="SuppressionXpathSingleFilter">
