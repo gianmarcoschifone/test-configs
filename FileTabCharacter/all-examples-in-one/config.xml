@@ -26,7 +26,7 @@
     </module>
 
     <module name="FileTabCharacter">
-        <property name="fileExtensions" value="java, xml"/>
+        <property name="fileExtensions" value="xml"/>
         <property name="id" value="example3"/>
     </module>
 
