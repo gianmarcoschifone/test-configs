@@ -25,18 +25,18 @@
         <property name="skipFileOnJavaParseException" value="true"/>
         <property name="javaParseExceptionSeverity" value="ignore"/>
 
-        <module name="TrailingComment">
+        <module name="UnusedPrivateField">
             <property name="id" value="example1"/>
         </module>
 
-        <module name="TrailingComment">
-            <property name="format" value="^\s*$"/>
+        <module name="UnusedPrivateField">
             <property name="id" value="example2"/>
+            <property name="ignoreAnnotationCanonicalNames" value="Getter,Serial,SuppressWarnings"/>
         </module>
 
-        <module name="TrailingComment">
+        <module name="UnusedPrivateField">
             <property name="id" value="example3"/>
-            <property name="legalComment" value="^ ok, SUPPRESS CHECKSTYLE$"/>
+            <property name="ignoredFieldPattern" value="serialVersionUID|getter|_id|unused"/>
         </module>
 
         <!-- suppress javadoc parsing errors, as we test Check not a parser -->
